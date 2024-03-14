@@ -1,0 +1,23 @@
+body {
+    display: flex;
+}
+
+.sidebar-left,
+.sidebar-right {
+    width: 200px;
+    background-color:white;
+    padding: 20px;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.custom-layout {
+    background-color:silver;
+    padding: 20px;
+}
+
+.sidebar-right button {
+    margin-bottom: 10px;
+}
